@@ -65,6 +65,38 @@ body {
   margin-top: 0.75rem;
 }
 
+.publication-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.paper-link {
+  align-items: center;
+  background: #2f3033;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-family: 'Google Sans', sans-serif;
+  gap: 0.55rem;
+  line-height: 1;
+  padding: 0.7rem 1.1rem;
+}
+
+.paper-link:hover {
+  color: #fff;
+  background: #17181a;
+}
+
+.paper-link-icon {
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 0.16rem 0.28rem;
+}
+
 .teaser {
   font-family: 'Google Sans', sans-serif;
 }
@@ -137,7 +169,10 @@ body {
 }
 
 pre {
+  background: #f6f8fb;
+  border: 1px solid #d8dbe0;
   border-radius: 8px;
+  overflow-x: auto;
   white-space: pre-wrap;
 }
 
